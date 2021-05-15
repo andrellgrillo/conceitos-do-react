@@ -32,7 +32,7 @@ export function TaskList() {
       ...task,
       isComplete: !task.isComplete
     }: task);
-    //teste
+    
     setTasks(updateTasks)
   }
 
